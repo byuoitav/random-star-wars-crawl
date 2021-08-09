@@ -1,0 +1,4 @@
+# Ignore Reference Build
+go.mod
+main.go
+random-star-wars-crawl
