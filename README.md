@@ -40,7 +40,7 @@ request.
 ```
 4. Your service should dynamically get the opening crawl text from The Star Wars API (swapi.dev)
 	* Note: The Star Wars API returns the opening crawl text as a single string with a carriage
-	return and a new line (`\\r\\n`) separating the lines. This string needs to be broken up into
+	return and a new line (`\r\n`) separating the lines. This string needs to be broken up into
 	an array of strings (one for each line) as seen above.
 5. It is expected that your service will always successfully return a response every time it is
 called as long as there are not problems with The Star Wars API.
@@ -55,7 +55,7 @@ and run it. It will expose a service on port `8080` of your localhost with a sin
 endpoint which will work as has been requested above. 
 2. The Star Wars API contains six films with IDs 1-6. You may use these IDs directly to access a random
 film from The Star Wars API.
-3. All lines of the opening crawl are separated with the same substring (`\\r\\n`) in The Star Wars API.
+3. All lines of the opening crawl are separated with the same substring (`\r\n`) in The Star Wars API.
 This should make a standard library "String Split" function easy to use.
 
 
